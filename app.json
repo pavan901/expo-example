@@ -13,22 +13,23 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pavan1984.expoexample"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.pavan1984.expoexample"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "@videosdk.live/expo-config-plugin",
       [
-        "@config-plugins/react-native-webrtc",
+        "@videosdk.live/expo-config-plugin",
         {
           "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
           "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone"
