@@ -1,27 +1,32 @@
-## Run the Sample App
+# Running the Sample App
 
-### Step 1: Clone the sample project
+## Step 1: Clone the Repository
 
-Clone the repository to your local environment.
+Clone the sample project to your local machine.
 
-### Step 2: Update the `api.js` file.
+## Step 2: Configure `api.js`
 
-Update the `api.js` file with your Authentication Token generated from [VideoSDK Dashboard](https://app.videosdk.live/api-keys).
+Update the `api.js` file with your Authentication Token generated from the [VideoSDK Dashboard](https://app.videosdk.live/api-keys).
 
-### Step 3: Install the dependecies
+## Step 3: Install the dependecies
 
-Install all the dependecies to run the project.
+Install all required dependencies for the project.
 
 ```js
-npm install
+yarn install
+```
+ 
+## Step 4: Prebuild the Project
+
+```js
+yarn expo prebuild
 ```
 
-### Step 4: Run the App
+## Step 5: Run the App
 
-Bingo, it's time to push the launch button.
+You’re all set! Launch the app on your desired platform.
 
 ```js
-npx expo run:android // run for android
-
-npx expo run:ios // run for android
+yarn android // for android
+yarn ios // for ios 
 ```
